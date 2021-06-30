@@ -4,6 +4,8 @@ title: About me
 #subtitle: Why you'd want to go on a date with me
 ---
 
+![baby](/assets/img/profile.png){: .mx-auto.d-block :}
+
 Welcome to my personal website! I enjoy problem-solving with math and programming, and I currently work as a contract software engineer on the Apple battery analytics team. In my spare time, I also enjoy playing piano and writing music.  
 
 ### My story

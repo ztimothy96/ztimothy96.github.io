@@ -2,7 +2,6 @@
 layout: post
 title: "1, 2, 3: An introduction"
 subtitle: ""
-cover-img: ""
 thumbnail-img: /assets/img/baby.png
 share-img: /assets/img/baby.jpg
 tags: [math, test]
