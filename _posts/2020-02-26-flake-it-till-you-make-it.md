@@ -1,7 +1,7 @@
 ---
 layout: post
 title: {1, 2, 3: An introduction}
-#subtitle: {}
+subtitle: {}
 cover-img: /assets/img/baby.jpg
 thumbnail-img: /assets/img/baby.png
 share-img: /assets/img/baby.jpg
