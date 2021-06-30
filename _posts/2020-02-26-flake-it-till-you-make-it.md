@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1, 2, 3: An introduction
+title: {1, 2, 3: An introduction}
 subtitle:
 cover-img: /assets/img/baby.jpg
 thumbnail-img: /assets/img/baby.png
