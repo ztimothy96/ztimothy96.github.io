@@ -2,8 +2,8 @@
 layout: post
 title: Sample blog post
 subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+#gh-repo: daattali/beautiful-jekyll
+#gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
@@ -61,6 +61,16 @@ foo(3)
 
 ## Boxes
 You can add notification, warning and error boxes like this:
+
+## Math
+Here is a matrix:
+$$
+M = \left( \begin{array}{ccc}
+x_{11} & x_{12} & \ldots \\
+x_{21} & x_{22} & \ldots \\
+\vdots & \vdots & \ldots \\
+\end{array} \right)
+$$
 
 ### Notification
 
