@@ -15,9 +15,9 @@ author: Timothy Zhou
 
 navbar-links:
   About Me: "aboutme"
-  Work: ""
-  Blog: ""
-  Music: ""
+  Work: "work"
+  Blog: "index"
+  Music: "music"
 
 # --- Logo --- #
 
