@@ -4,7 +4,7 @@ title: "1, 2, 3: An introduction"
 subtitle: ""
 thumbnail-img: /assets/img/baby.png
 share-img: /assets/img/baby.jpg
-tags: [math, test]
+tags: [math]
 ---
 
 Welcome to my blog! I started writing for fun in 2019, when I first started graduate school, so that I could share some interesting computer science and math with my friends. Although I'm not in graduate school anymore, I still enjoy recording my random thoughts. To kick off this new website, I'm reposting the first blog post I ever wrote.
