@@ -2,6 +2,8 @@
 layout: post
 title: "Monkeying around on Independence Day"
 subtitle: "Some facts about probability and independence"
+thumbnail-img:  https://4.bp.blogspot.com/-MIOAXJyJKU8/Vr55dKeS0sI/AAAAAAABhG4/Qc-ACmOkLyo/s1600/3ym.jpg
+share-img: https://4.bp.blogspot.com/-MIOAXJyJKU8/Vr55dKeS0sI/AAAAAAABhG4/Qc-ACmOkLyo/s1600/3ym.jpg
 tags: [math, probability]
 ---
 
@@ -15,7 +17,7 @@ Most of the classical theorems of probability theory (namely the Law of Large Nu
 > - What is the probability that the monkey will type out *Hamlet* infinitely many times?
 > - What is the probability that the monkey will eventually only type out $$42$$-digit strings from the decimal expansion of $$\pi$$?
 
-![monkey](/assets/img/monkey.png){: .mx-auto.d-block :}
+![monkey](https://4.bp.blogspot.com/-MIOAXJyJKU8/Vr55dKeS0sI/AAAAAAABhG4/Qc-ACmOkLyo/s1600/3ym.jpg){: .mx-auto.d-block :}
 
 *Alas, poor Yorick!*
 
