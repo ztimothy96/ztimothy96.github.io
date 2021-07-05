@@ -3,7 +3,7 @@ layout: post
 title: "1, 2, 3: An introduction"
 subtitle: ""
 thumbnail-img: /assets/img/baby.png
-share-img: /assets/img/baby.jpg
+share-img: /assets/img/baby.png
 tags: [math]
 ---
 
