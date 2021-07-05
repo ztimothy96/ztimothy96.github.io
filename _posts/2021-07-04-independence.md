@@ -57,10 +57,14 @@ This result is extremely convenient, because now we can figure out whether event
 
 **Proof.**
 Suppose that $$\sum_n \Pr(E_n) < \infty$$. Then $$\sum_{k=n}^\infty E_k \to 0$$ as $$n \to \infty$$, and
-$$\Pr(E_n \, \io) = \Pr(\lim \sup E_n) = \Pr \left(\lim_{n \to \infty} \bigcup_{k \geq n} E_k \right) = \lim_{n \to \infty} \Pr \left(\bigcup_{k \geq n} E_k \right) \leq \lim_{n \to \infty} \sum_{k \geq n} E_k = 0.$$
+$$\Pr(E_n \, \text{i.o.}) = \Pr(\lim \sup E_n) \\
+= \Pr \left(\lim_{n \to \infty} \bigcup_{k \geq n} E_k \right) \\
+= \lim_{n \to \infty} \Pr \left(\bigcup_{k \geq n} E_k \right) \\
+\leq \lim_{n \to \infty} \sum_{k \geq n} E_k = 0.$$
 
 For the partial converse, suppose that $$\sum \Pr(E_n) = \infty$$ and that the $$(E_n)$$ are independent. Proceeding as before and using independence,
-$$\Pr(\{E_n \, \io\}^c) = \Pr \left( \lim \inf E_n^c \right) = \lim_{n \to \infty} \Pr \left( \bigcap_{k \geq n} E_k^c \right) = \lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)).$$
+$$\Pr(\{E_n \, \io\}^c) = \Pr \left( \lim \inf E_n^c \right) \\
+= \lim_{n \to \infty} \Pr \left( \bigcap_{k \geq n} E_k^c \right) = \lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)).$$
 
 By the helpful inequality $$1 - x \leq e^{-x}$$,
 $$\lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)) \leq \lim_{n \to \infty} \exp \left(-\sum_{k = n} \Pr(E_k) \right) \leq \exp (-\infty) = 0. \; \square$$
