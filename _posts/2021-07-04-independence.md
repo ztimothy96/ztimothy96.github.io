@@ -50,21 +50,30 @@ This result has been the subject of many debates about science and philosophy, r
 
 In what follows, "i.o." stands for "infinitely often."
 
-**Lemma (Borel-Cantelli).**
+>**Lemma (Borel-Cantelli).**
 Let $$(E_n)_{n \in \mathbb{N}}$$ be a sequence of events. If $$\sum_n \Pr(E_n) < \infty$$, then $$\Pr(E_n \, \text{i.o.}) = 0$$. Conversely, if $$\sum_n \Pr(E_n) = \infty$$ and $$(E_n)$$ is independent, then $$\Pr(E_n \, \text{i.o.}) = 1$$.
 
 This result is extremely convenient, because now we can figure out whether events occur infinitely often just by summing together some probabilities. In particular, it gives us an easy way to prove almost-sure convergence of random variables (which I might write about in a future post).
 
 **Proof.**
 Suppose that $$\sum_n \Pr(E_n) < \infty$$. Then $$\sum_{k=n}^\infty E_k \to 0$$ as $$n \to \infty$$, and
-$$\Pr(E_n \, \text{i.o.}) = \Pr(\lim \sup E_n) \\
-= \Pr \left(\lim_{n \to \infty} \bigcup_{k \geq n} E_k \right) \\
-= \lim_{n \to \infty} \Pr \left(\bigcup_{k \geq n} E_k \right) \\
-\leq \lim_{n \to \infty} \sum_{k \geq n} E_k = 0.$$
+$$
+\begin{align}
+\Pr(E_n \, \text{i.o.}) &= \Pr(\lim \sup E_n) \\
+&= \Pr \left(\lim_{n \to \infty} \bigcup_{k \geq n} E_k \right) \\
+&= \lim_{n \to \infty} \Pr \left(\bigcup_{k \geq n} E_k \right) \\
+\leq \lim_{n \to \infty} \sum_{k \geq n} E_k = 0.
+\end{align}
+$$
 
 For the partial converse, suppose that $$\sum \Pr(E_n) = \infty$$ and that the $$(E_n)$$ are independent. Proceeding as before and using independence,
-$$\Pr(\{E_n \, \io\}^c) = \Pr \left( \lim \inf E_n^c \right) \\
-= \lim_{n \to \infty} \Pr \left( \bigcap_{k \geq n} E_k^c \right) = \lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)).$$
+$$
+\begin{align}
+\Pr(\{E_n \, \text{i.o.}\}^c) &= \Pr \left( \lim \inf E_n^c \right) \\
+&= \lim_{n \to \infty} \Pr \left( \bigcap_{k \geq n} E_k^c \right) \\
+&= \lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)).
+\end{align}
+$$
 
 By the helpful inequality $$1 - x \leq e^{-x}$$,
 $$\lim_{n \to \infty} \prod_{k \geq n} (1 - \Pr(E_k)) \leq \lim_{n \to \infty} \exp \left(-\sum_{k = n} \Pr(E_k) \right) \leq \exp (-\infty) = 0. \; \square$$
